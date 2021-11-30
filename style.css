@@ -1,0 +1,36 @@
+body{
+     font-family: 'Poppins', sans-serif;;
+}
+#country-id{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+}
+.country{
+    background-color: lightblue;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+
+#country-id button{
+    padding: 10px;
+    border: none;
+    font-family: 'Poppins' ;
+    background-image: linear-gradient(#FF416C,#FF4B2B);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#countryDetails{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
